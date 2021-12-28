@@ -3,7 +3,8 @@
 ## 条件
 
 - `src` の中身の編集禁止
-- Docker や Vagrant+VirtualBox での構築
+- Vagrant+VirtualBox　で Dockerを使って構築
+  -　※ ただしM1チップのMacの場合、Vagrant+VirtualBoxが動かないので、Dockerのみで構築する
 
 ---
 
@@ -57,12 +58,11 @@
 #### どこから着手すればいいかわからない人へ
 
 - カリキュラムを読み直しましょう
-- Laradock や Vagrantfile の環境変数を変えてみて観察しましょう
+- Vagrantfile の環境変数を変えてみて観察しましょう
 
 #### 楽したい人へ
 
 - Vagrant と Docker 両方使うのが一番簡単な方法
-- Docker の Laradock を使うのが一番手取り早い方法
 
 #### Windows Home の人へ
 
